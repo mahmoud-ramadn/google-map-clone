@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^9.0.0-rc.2",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "axios": "^1.7.7",
+    "lodash-es": "^4.17.21",
+    "nuxt": "^3.14.159",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-google-map": "^0.21.0"
+  }
+}
