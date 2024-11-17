@@ -3,11 +3,11 @@
     <client-only>
       <div class="relative">
         <GoogleMap
-          api-key="AIzaSyAhdmxLGPm7_5Tfzh0dqROo6tw-u4u-pME"
+          api-key="AIzaSyAmqmnMKDFq1urlcUYWXaMynmXTWIxbggg"
           style="width: 100%; height: 500px"
           class="rounded-xl overflow-hidden"
           :center="center"
-          :zoom="10"
+          :zoom="7"
           @click="onMapClick"
           :libraries="['places']"
           ref="mapRef"
@@ -110,5 +110,5 @@ const onInputChange = debounce(async (e: Event) => {
 
 </script>
 
+<!-- GOOGLE_MAPS_API_KEY="AIzaSyAmqmnMKDFq1urlcUYWXaMynmXTWIxbggg" -->
 
-<!-- api-key="AIzaSyAhdmxLGPm7_5Tfzh0dqROo6tw-u4u-pME" -->
